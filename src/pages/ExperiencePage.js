@@ -15,8 +15,9 @@ function ExperiencePage() {
               <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">University of the Free State<span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">2024 – Present</span></h3>
               <p className="block mb-2 text-sm font-normal leading-none text-gray-400">Junior Researcher</p>
               <ul className="list-disc list-inside text-gray-700">
-                <li>Android apps for sign language & financial education</li>
-                <li>Research + development support</li>
+                <li>Developed Lebitso App in Android Studio for South African sign language research.</li>
+                <li>Co-authored the reports for the project advancing SASL for 4IR Technological Development.</li>
+                <li>Developed a financial management app in Android Studio, tailored for small enterprises to foster good financial habits.</li>
               </ul>
             </div>
           </div>
@@ -30,7 +31,9 @@ function ExperiencePage() {
               <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900">DevelopmentHub<span className="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Jul–Dec 2022</span></h3>
               <p className="block mb-2 text-sm font-normal leading-none text-gray-400">Full Stack Developer Intern</p>
               <ul className="list-disc list-inside text-gray-700">
-                <li>Angular front-ends, REST APIs with Node.js</li>
+                <li>Built dynamic web applications using Angular & ASP.NET Boilerplate (ABP).</li>
+                <li>Developed responsive front-end interfaces with AngularJS for improved user experience.</li>
+                <li>Designed RESTful APIs & backend services with Node.js, ensuring seamless functionality.</li>
               </ul>
             </div>
           </div>
