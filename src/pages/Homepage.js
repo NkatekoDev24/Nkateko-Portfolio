@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Homepage() {
   return (
@@ -6,7 +7,7 @@ function Homepage() {
       <div className="text-center container mx-auto px-4 flex flex-col md:flex-row items-center justify-center">
         {/* Profile Image Section */}
         <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden mx-auto md:mx-0 mb-8 md:mb-0 md:mr-12 shadow-lg">
-          <img src="/assets/nkateko.jpg" alt="Nkateko Nkuna" className="w-full h-full object-cover" />
+          <img src="/assets/nkateko.jpg" alt="Nkateko Nkuna" className="w-full h-full object-cover transform transition-transform duration-300 hover:scale-110" />
         </div>
 
         {/* Text Content */}
@@ -17,6 +18,9 @@ function Homepage() {
             Welcome to my portfolio! I'm a passionate software developer with a focus on building innovative solutions. I'm constantly exploring new technologies and honing my skills to create impactful software.
           </p>
 
+          <Link to="/projects" className="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300 ease-in-out mt-4">
+            View Projects
+          </Link>
           {/* Social Media Links Placeholder */}
           <div className="flex justify-center md:justify-start space-x-6">
             {/* Links will go here - Add actual social media icons and links */}
