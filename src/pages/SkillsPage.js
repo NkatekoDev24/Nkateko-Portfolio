@@ -1,45 +1,26 @@
 import React from 'react';
-import { SiCsharp } from 'react-icons/si';
-import { SiJava } from 'react-icons/si';
 import { FaCode } from 'react-icons/fa';
-import { SiKotlin } from 'react-icons/si';
-import { SiPython } from 'react-icons/si';
-import { SiJavascript } from 'react-icons/si';
-import { SiTypescript } from 'react-icons/si';
-import { SiReact } from 'react-icons/si';
-import { SiAngularjs } from 'react-icons/si';
-import { SiStreamlit } from 'react-icons/si';
-import { SiAngular } from 'react-icons/si';
-import { SiSqlite } from 'react-icons/si';
-import { SiMicrosoftsqlserver } from 'react-icons/si';
-import { SiMongodb } from 'react-icons/si';
-import { SiGit } from 'react-icons/si';
-import { SiAndroidstudio } from 'react-icons/si';
-import { SiNodedotjs } from 'react-icons/si';
+import * as SiIcons from 'react-icons/si';
 
-
-
-
-
-
+// Assuming SiFirebase is needed and should be imported individually or from the SiIcons import
 const skillData = [
-  { name: 'C#', icon: SiCsharp },
-  { name: 'Java', icon: SiJava },
-  { name: 'Kotlin', icon: SiKotlin },
-  { name: 'Python', icon: SiPython },
-  { name: 'JavaScript', icon: SiJavascript },
-  { name: 'TypeScript', icon: SiTypescript },
-  { name: 'ReactJS', icon: SiReact },
-  { name: 'React Native', icon: SiReact }, // Using React icon for React Native
-  { name: 'Angular', icon: SiAngular },
-  { name: 'Streamlit', icon: SiStreamlit },
-  { name: 'Firebase', icon: SiFirebase }, // Assuming this was intended to be kept
-  { name: 'SQLite', icon: SiSqlite },
-  { name: 'SQL', icon: SiMicrosoftsqlserver }, // Using SQL Server icon for general SQL
-  { name: 'MongoDB', icon: SiMongodb },
-  { name: 'Git', icon: SiGit },
- { name: 'Android Studio', icon: SiAndroidstudio },
-  { name: 'Node.js', icon: SiNodedotjs },
+  { name: 'C#', icon: SiIcons.SiCsharp },
+  { name: 'Java', icon: SiIcons.SiJava },
+  { name: 'Kotlin', icon: SiIcons.SiKotlin },
+  { name: 'Python', icon: SiIcons.SiPython },
+  { name: 'JavaScript', icon: SiIcons.SiJavascript },
+  { name: 'TypeScript', icon: SiIcons.SiTypescript },
+  { name: 'ReactJS', icon: SiIcons.SiReact },
+  { name: 'React Native', icon: SiIcons.SiReact }, // Using React icon for React Native
+  { name: 'Angular', icon: SiIcons.SiAngular },
+  { name: 'Streamlit', icon: SiIcons.SiStreamlit },
+  { name: 'Firebase', icon: SiIcons.SiFirebase }, // Assuming this was intended to be kept
+  { name: 'SQLite', icon: SiIcons.SiSqlite },
+  { name: 'SQL', icon: SiIcons.SiMicrosoftsqlserver }, // Using SQL Server icon for general SQL
+  { name: 'MongoDB', icon: SiIcons.SiMongodb },
+  { name: 'Git', icon: SiIcons.SiGit },
+  { name: 'Android Studio', icon: SiIcons.SiAndroidstudio },
+  { name: 'Node.js', icon: SiIcons.SiNodedotjs },
   { name: 'REST APIs', icon: FaCode }, // Using FaCode for REST APIs
 ];
 
