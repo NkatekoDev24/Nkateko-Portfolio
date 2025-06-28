@@ -9,14 +9,17 @@ function App() {
   return (
     <main className="text-gray-800">
       {/* Homepage Section */}
-      <section className="py-16 bg-gray-100">
-        <div className="container mx-auto px-4 text-center">
+      <section className="relative h-screen bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white flex items-center justify-center">
+        <div className="container mx-auto px-4 text-center z-10">
           {/* Profile Image Placeholder */}
-          <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4"></div>
+          <div className="w-40 h-40 bg-gray-300 rounded-full mx-auto mb-6 overflow-hidden shadow-lg">
+            {/* Replace with your image */}
+            <img src="/path/to/your/profile-image.jpg" alt="Profile" className="w-full h-full object-cover"/>
+          </div>
 
-          <h1 className="text-5xl font-bold text-gray-900 mb-3">Nkateko Nkuna</h1>
-          <h2 className="text-2xl text-gray-700 mb-6">Software Developer | AI Enthusiast | Full Stack Learner</h2>
-          <p className="text-lg text-gray-800 max-w-xl mx-auto mb-8">
+          <h1 className="text-6xl md:text-7xl font-bold mb-4 animate-fade-in-up">Nkateko Nkuna</h1>
+          <h2 className="text-2xl md:text-3xl mb-8 animate-fade-in-up animation-delay-200">Software Developer | AI Enthusiast | Full Stack Learner</h2>
+          <p className="text-lg md:text-xl max-w-2xl mx-auto mb-10 opacity-0 animate-fade-in animation-delay-400">
             Welcome to my portfolio! I'm a passionate software developer with a focus on building innovative solutions.
           </p>
 
