@@ -7,7 +7,7 @@ import Chatbot from './components/Chatbot.js';
 
 function App() {
   return (
-    <main className="flex flex-col items-center justify-center h-screen bg-gray-100 text-gray-800">
+    <main className="bg-gray-100 text-gray-800">
       <div className="text-center">
         {/* Profile Image Placeholder */}
         <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4"></div>
