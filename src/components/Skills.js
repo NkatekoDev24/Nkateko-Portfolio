@@ -1,51 +1,41 @@
 import React from 'react';
 
 const Skills = () => {
+  const skills = [
+    { name: 'C#', logoUrl: 'placeholder-csharp.png' },
+    { name: 'Java', logoUrl: 'placeholder-java.png' },
+    { name: 'Kotlin', logoUrl: 'placeholder-kotlin.png' },
+    { name: 'Python', logoUrl: 'placeholder-python.png' },
+    { name: 'JavaScript', logoUrl: 'placeholder-javascript.png' },
+    { name: 'TypeScript', logoUrl: 'placeholder-typescript.png' },
+    { name: 'ReactJS', logoUrl: 'placeholder-react.png' },
+    { name: 'React Native', logoUrl: 'placeholder-reactnative.png' },
+    { name: 'AngularJS', logoUrl: 'placeholder-angular.png' },
+    { name: 'Streamlit', logoUrl: 'placeholder-streamlit.png' },
+    { name: 'Firebase', logoUrl: 'placeholder-firebase.png' },
+    { name: 'SQLite', logoUrl: 'placeholder-sqlite.png' },
+    { name: 'SQL', logoUrl: 'placeholder-sql.png' },
+    { name: 'MongoDB', logoUrl: 'placeholder-mongodb.png' },
+    { name: 'Git', logoUrl: 'placeholder-git.png' },
+    { name: 'Android Studio', logoUrl: 'placeholder-androidstudio.png' },
+    { name: 'Node.js', logoUrl: 'placeholder-nodejs.png' },
+    { name: 'REST APIs', logoUrl: 'placeholder-restapi.png' },
+  ];
+
   return (
     <section>
-      <h2>Skills & Tech Stack</h2>
-      <div>
-        <h3>Languages</h3>
-        <ul>
-          <li>C#</li>
-          <li>Java</li>
-          <li>Kotlin</li>
-          <li>Python</li>
-          <li>JavaScript</li>
-          <li>TypeScript</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Frameworks/Libraries</h3>
-        <ul>
-          <li>ReactJS</li>
-          <li>React Native</li>
-          <li>AngularJS</li>
-          <li>Streamlit</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Databases</h3>
-        <ul>
-          <li>Firebase</li>
-          <li>SQLite</li>
-          <li>SQL</li>
-          <li>MongoDB</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Tools</h3>
-        <ul>
-          <li>Git</li>
-          <li>Android Studio</li>
-          <li>Node.js</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Extras</h3>
-        <ul>
-          <li>REST APIs</li>
-        </ul>
+      <h2 className="text-3xl font-bold text-center mb-8">Skills & Tech Stack</h2>
+      <div className="flex flex-wrap justify-center gap-4">
+        {skills.map((skill, index) => (
+          <div key={index} className="flex items-center bg-white border border-gray-300 rounded-full px-4 py-2 shadow-sm">
+            <img
+              src={skill.logoUrl}
+              alt={`${skill.name} logo`}
+              className="w-6 h-6 mr-2"
+            />
+            <span className="text-gray-800 text-sm font-medium">{skill.name}</span>
+          </div>
+        ))}
       </div>
     </section>
   );
