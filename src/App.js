@@ -1,9 +1,9 @@
 import React from 'react';
-import About from '/home/sandbox/my-portfolio/src/components/About.js';
-import Skills from '/home/sandbox/my-portfolio/src/components/Skills.js';
-import Projects from '/home/sandbox/my-portfolio/src/components/Projects.js';
-import Experience from '/home/sandbox/my-portfolio/src/components/Experience.js';
-import Chatbot from '/home/sandbox/my-portfolio/src/components/Chatbot.js';
+import About from './components/About.js';
+import Skills from './components/Skills.js';
+import Projects from './components/Projects.js';
+import Experience from './components/Experience.js';
+import Chatbot from './components/Chatbot.js';
 
 function App() {
   return (
