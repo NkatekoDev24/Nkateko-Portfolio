@@ -1,6 +1,25 @@
 import React from 'react';
-import { SiCsharp, SiJava, SiKotlin, SiPython, SiJavascript, SiTypescript, SiReact, SiAngularjs, SiStreamlit, SiFirebase, SiSqlite, SiMicrosoftsqlserver, SiMongodb, SiGit, SiAndroidstudio, SiNodedotjs } from 'react-icons/si';
 import { FaRestassured } from 'react-icons/fa';
+import { SiCsharp } from 'react-icons/si';
+import { SiJava } from 'react-icons/si';
+import { SiKotlin } from 'react-icons/si';
+import { SiPython } from 'react-icons/si';
+import { SiJavascript } from 'react-icons/si';
+import { SiTypescript } from 'react-icons/si';
+import { SiReact } from 'react-icons/si';
+import { SiAngularjs } from 'react-icons/si';
+import { SiStreamlit } from 'react-icons/si';
+import { SiFirebase } from 'react-icons/si';
+import { SiSqlite } from 'react-icons/si';
+import { SiMicrosoftsqlserver } from 'react-icons/si';
+import { SiMongodb } from 'react-icons/si';
+import { SiGit } from 'react-icons/si';
+import { SiAndroidstudio } from 'react-icons/si';
+import { SiNodedotjs } from 'react-icons/si';
+
+
+
+
 
 
 const skillData = [
