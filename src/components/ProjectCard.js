@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectCard = ({ title, description, image, githubLink, demoLink }) => {
   return (
-    <div className="border p-4 rounded-lg shadow-md">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden p-6 flex flex-col h-full">
       <div className="w-full h-48 mb-4 overflow-hidden rounded-md">
         {/* You can replace this div with an <img> tag when you have actual images */}
         {image ? (

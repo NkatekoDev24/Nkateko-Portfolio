@@ -2,8 +2,8 @@ import React from 'react';
 
 function About() {
   return (
-    <section id="about" className="py-16 bg-gray-50 dark:bg-gray-800 text-gray-800 dark:text-gray-200">
-      <div className="container mx-auto px-4">
+    <section id="about" className="py-16 bg-gray-50 dark:bg-gray-800 text-gray-800 dark:text-gray-200 flex items-center justify-center">
+      <div className="container mx-auto px-4 py-12">
         <h2 className="text-4xl font-bold mb-12 text-center text-gray-900 dark:text-white">About Me</h2>
         <div className="grid md:grid-cols-2 gap-12">
           <div>

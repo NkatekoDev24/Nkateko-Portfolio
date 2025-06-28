@@ -1,6 +1,7 @@
 import React from 'react';
 import * as SiIcons from 'react-icons/si';
 import * as FaIcons from 'react-icons/fa';
+import Skills from '../components/Skills';
 
 const Skills = () => {
   const skills = [
