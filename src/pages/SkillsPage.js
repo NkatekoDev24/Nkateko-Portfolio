@@ -1,26 +1,41 @@
 import React from 'react';
 import { FaCode } from 'react-icons/fa';
-import * as SiIcons from 'react-icons/si';
+import {
+  SiCsharp,
+  SiJava,
+  SiKotlin,
+  SiPython,
+  SiJavascript,
+  SiTypescript,
+  SiReact,
+  SiAngular,
+  SiStreamlit,
+  SiFirebase,
+  SiSqlite,
+  SiMongodb,
+  SiGit,
+  SiAndroidstudio,
+  SiNodedotjs,
+} from 'react-icons/si';
 
 // Assuming SiFirebase is needed and should be imported individually or from the SiIcons import
 const skillData = [
-  { name: 'C#', icon: SiIcons.SiCsharp },
-  { name: 'Java', icon: SiIcons.SiJava },
-  { name: 'Kotlin', icon: SiIcons.SiKotlin },
-  { name: 'Python', icon: SiIcons.SiPython },
-  { name: 'JavaScript', icon: SiIcons.SiJavascript },
-  { name: 'TypeScript', icon: SiIcons.SiTypescript },
-  { name: 'ReactJS', icon: SiIcons.SiReact },
-  { name: 'React Native', icon: SiIcons.SiReact }, // Using React icon for React Native
-  { name: 'Angular', icon: SiIcons.SiAngular },
-  { name: 'Streamlit', icon: SiIcons.SiStreamlit },
-  { name: 'Firebase', icon: SiIcons.SiFirebase }, // Assuming this was intended to be kept
-  { name: 'SQLite', icon: SiIcons.SiSqlite },
-  { name: 'SQL', icon: SiIcons.SiMicrosoftsqlserver }, // Using SQL Server icon for general SQL
-  { name: 'MongoDB', icon: SiIcons.SiMongodb },
-  { name: 'Git', icon: SiIcons.SiGit },
-  { name: 'Android Studio', icon: SiIcons.SiAndroidstudio },
-  { name: 'Node.js', icon: SiIcons.SiNodedotjs },
+  { name: 'C#', icon: SiCsharp },
+  { name: 'Java', icon: SiJava },
+  { name: 'Kotlin', icon: SiKotlin },
+  { name: 'Python', icon: SiPython },
+  { name: 'JavaScript', icon: SiJavascript },
+  { name: 'TypeScript', icon: SiTypescript },
+  { name: 'ReactJS', icon: SiReact },
+  { name: 'React Native', icon: SiReact }, // Using React icon for React Native
+  { name: 'Angular', icon: SiAngular },
+  { name: 'Streamlit', icon: SiStreamlit },
+  { name: 'Firebase', icon: SiFirebase }, // Assuming this was intended to be kept
+  { name: 'SQLite', icon: SiSqlite },
+  { name: 'MongoDB', icon: SiMongodb },
+  { name: 'Git', icon: SiGit },
+  { name: 'Android Studio', icon: SiAndroidstudio },
+  { name: 'Node.js', icon: SiNodedotjs },
   { name: 'REST APIs', icon: FaCode }, // Using FaCode for REST APIs
 ];
 
