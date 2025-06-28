@@ -6,7 +6,7 @@ function ProjectsPage() {
     {
       title: 'Good Money Habits App',
       description: 'Financial education for small/medium businesses',
-      imageUrl: 'placeholder1.jpg', // Replace with actual image URL
+      imageUrl: '/assets/gmh_logo.png', // Replace with actual image URL
       githubUrl: 'https://github.com/NkatekoDev24/Good-Money-Habits',
     },
     {
