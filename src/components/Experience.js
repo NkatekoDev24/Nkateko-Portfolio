@@ -13,8 +13,9 @@ const Experience = () => {
             <h3 className="text-xl font-semibold text-gray-900">Junior Researcher at University of the Free State</h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400">2024–Present</time>
             <ul className="list-disc list-inside text-base font-normal text-gray-500">
-              <li>Android apps for sign language & financial education</li>
-              <li>Research + development support</li>
+              <li>Developed Lebitso App in Android Studio for South African sign language research.</li>
+              <li>Co-authored the reports for the project advancing SASL for 4IR Technological Development.</li>
+              <li>Developed a financial management app in Android Studio, tailored for small enterprises to foster good financial habits.</li>
             </ul>
           </div>
         </div>
@@ -26,8 +27,9 @@ const Experience = () => {
             <h3 className="text-xl font-semibold text-gray-900">Full Stack Developer Intern at DevelopmentHub</h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400">Jul–Dec 2022</time>
             <ul className="list-disc list-inside text-base font-normal text-gray-500">
-              <li>Angular front-ends</li>
-              <li>REST APIs with Node.js</li>
+              <li>Built dynamic web applications using Angular & ASP.NET Boilerplate (ABP).</li>
+              <li>Developed responsive front-end interfaces with AngularJS for improved user experience.</li>
+              <li>Designed RESTful APIs & backend services with Node.js, ensuring seamless functionality.</li>
             </ul>
           </div>
         </div>
