@@ -1,33 +1,34 @@
 import React from 'react';
+import About from '/home/sandbox/my-portfolio/src/components/About.js';
+import Skills from '/home/sandbox/my-portfolio/src/components/Skills.js';
+import Projects from '/home/sandbox/my-portfolio/src/components/Projects.js';
+import Experience from '/home/sandbox/my-portfolio/src/components/Experience.js';
+import Chatbot from '/home/sandbox/my-portfolio/src/components/Chatbot.js';
 
 function App() {
   return (
-    <div className="flex flex-col h-full items-center justify-center bg-gray-200 text-gray-700">
-      <div className="flex items-center">
-        <h1 className="text-6xl font-thin tracking-wider">Create React App + Tailwind CSS</h1>
+    <main className="flex flex-col items-center justify-center h-screen bg-gray-100 text-gray-800">
+      <div className="text-center">
+        {/* Profile Image Placeholder */}
+        <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4"></div>
+
+        <h1 className="text-4xl font-bold mb-2">Nkateko Nkuna</h1>
+        <h2 className="text-xl text-gray-600 mb-4">Software Developer | AI Enthusiast | Full Stack Learner</h2>
+        <p className="text-lg max-w-md mx-auto mb-6">
+          Welcome to my portfolio! I'm a passionate software developer with a focus on building innovative solutions.
+        </p>
+
+        {/* Social Media Links Placeholder */}
+        <div className="flex justify-center space-x-4">
+          {/* Links will go here */}
+        </div>
       </div>
-      <p className="my-6 tracking-wide">
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <div className="mt-6 flex justify-center">
-        <a
-          className="uppercase hover:underline"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <a
-          className="ml-10 uppercase hover:underline"
-          href="https://tailwindcss.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Tailwind
-        </a>
-      </div>
-    </div>
+      <About />
+      <Skills />
+      <Projects />
+      <Experience />
+      <Chatbot />
+    </main>
   );
 }
 
