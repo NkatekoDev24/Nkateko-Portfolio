@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaCode } from 'react-icons/fa';
 import {
-  SiCsharp,
   SiJava,
   SiKotlin,
   SiPython,
@@ -20,8 +19,6 @@ import {
 
 // Assuming SiFirebase is needed and should be imported individually or from the SiIcons import
 const skillData = [
-  { name: 'C#', icon: SiCsharp },
-  { name: 'Java', icon: SiJava },
   { name: 'Kotlin', icon: SiKotlin },
   { name: 'Python', icon: SiPython },
   { name: 'JavaScript', icon: SiJavascript },
