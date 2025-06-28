@@ -2,11 +2,11 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Homepage from '/home/sandbox/my-portfolio/src/pages/Homepage.js';
-import AboutPage from '/home/sandbox/my-portfolio/src/pages/AboutPage.js'; // Corrected path
-import SkillsPage from '/home/sandbox/my-portfolio/src/pages/SkillsPage.js'; // Corrected path
-import ProjectsPage from '/home/sandbox/my-portfolio/src/pages/ProjectsPage.js'; // Corrected path
-import ExperiencePage from '/home/sandbox/my-portfolio/src/pages/ExperiencePage.js'; // Corrected path
-import ContactPage from '/home/sandbox/my-portfolio/src/pages/ContactPage.js'; // Corrected path
+import AboutPage from './pages/AboutPage.js';
+import SkillsPage from './pages/SkillsPage.js';
+import ProjectsPage from './pages/ProjectsPage.js';
+import ExperiencePage from './pages/ExperiencePage.js';
+import ContactPage from './pages/ContactPage.js';
 
 // Assuming these components are still in the components directory
 import Chatbot from './components/Chatbot.js';
