@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Homepage() {
   return (
-    <div className="flex flex-col items-center justify-center py-16 bg-gray-100 text-gray-800">
+    <div className="flex flex-col items-center justify-center pt-24 pb-16 bg-gray-100 text-gray-800">
       <div className="text-center container mx-auto px-4 flex flex-col md:flex-row items-center justify-center">
         {/* Profile Image Section */}
         <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden mx-auto md:mx-0 mb-8 md:mb-0 md:mr-12 shadow-lg">
