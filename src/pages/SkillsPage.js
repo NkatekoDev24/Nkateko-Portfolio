@@ -38,7 +38,7 @@ const skillData = [
 
 function SkillsPage() {
   return (
-    <section id="skills" className="py-16 bg-gray-200">
+    <section id="skills" className="py-16 pt-32 bg-gray-200">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">Skills & Tech Stack</h2>
         <div className="flex flex-wrap justify-center gap-6">
