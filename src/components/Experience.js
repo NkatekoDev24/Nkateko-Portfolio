@@ -16,7 +16,7 @@ const Experience = () => {
               <li>Android apps for sign language & financial education</li>
               <li>Research + development support</li>
             </ul>
-          </ul>
+          </div>
         </div>
         <div className="mb-8 flex items-center w-full">
            <div className="z-10 flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full shrink-0 -left-4">
@@ -29,7 +29,7 @@ const Experience = () => {
               <li>Angular front-ends</li>
               <li>REST APIs with Node.js</li>
             </ul>
-          </ul>
+          </div>
         </div>
         {/* Add more work experience entries as needed */}
       </div>
