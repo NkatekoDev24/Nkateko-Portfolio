@@ -7,7 +7,7 @@ function Homepage() {
         {/* Profile Image Placeholder */}
         <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-4">
            {/* Replace with actual image tag and src */}
-           <img src="/Asset/your-profile-image.jpg" alt="Nkateko Nkuna" className="w-full h-full object-cover rounded-full" />
+           <img src="/assets/nkateko.jpg" alt="Nkateko Nkuna" className="w-full h-full object-cover rounded-full" />
         </div>
 
         <h1 className="text-4xl font-bold mb-2">Nkateko Nkuna</h1>

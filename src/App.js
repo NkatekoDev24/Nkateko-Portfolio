@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Homepage from '/home/sandbox/my-portfolio/src/pages/Homepage.js';
+import Homepage from './pages/Homepage.js'; // Adjust the import path as necessary
 import AboutPage from './pages/AboutPage.js';
 import SkillsPage from './pages/SkillsPage.js';
 import ProjectsPage from './pages/ProjectsPage.js';

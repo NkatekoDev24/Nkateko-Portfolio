@@ -4,8 +4,8 @@ import * as FaIcons from 'react-icons/fa';
 
 const Skills = () => {
   const skills = [
-    { name: 'C#', icon: 'SiCsharp' },
-    { name: 'Java', icon: 'SiJava' },
+    { name: 'C#', icon: SiIcons.SiCsharp, color: '#178600' },
+    { name: 'Java', icon: SiIcons.SiJava, color: '#007396' },
     { name: 'Kotlin', icon: 'SiKotlin' },
     { name: 'Python', icon: 'SiPython' },
     { name: 'JavaScript', icon: 'SiJavascript' },
