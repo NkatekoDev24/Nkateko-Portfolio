@@ -1,24 +1,26 @@
 import React from 'react';
 import {
-  SiCsharp,
-  SiJava,
-  SiKotlin,
-  SiPython,
-  SiJavascript,
-  SiTypescript,
-  SiReact,
-  SiReactquery, // Using SiReactquery as a placeholder for React Native if no specific RN icon in Simple Icons
-  SiAngularjs,
-  SiStreamlit,
-  SiFirebase,
-  SiSqlite,
-  SiMicrosoftsqlserver, // Using SiMicrosoftsqlserver as a placeholder for SQL
-  SiMongodb,
-  SiGit,
-  SiAndroidstudio,
-  SiNodedotjs,
-} from 'react-icons/si'; // Simple Icons
-import { FaRestassured } from 'react-icons/fa'; // Font Awesome for REST APIs
+  SiCsharp
+} from 'react-icons/si/SiCsharp';
+import { SiJava } from 'react-icons/si/SiJava';
+import { SiKotlin } from 'react-icons/si/SiKotlin';
+import { SiPython } from 'react-icons/si/SiPython';
+import { SiJavascript } from 'react-icons/si/SiJavascript';
+import { SiTypescript } from 'react-icons/si/SiTypescript';
+import { SiReact } from 'react-icons/si/SiReact';
+// Using SiReactquery as a placeholder for React Native if no specific RN icon in Simple Icons
+import { SiReactquery } from 'react-icons/si/SiReactquery';
+import { SiAngularjs } from 'react-icons/si/SiAngularjs';
+import { SiStreamlit } from 'react-icons/si/SiStreamlit';
+import { SiFirebase } from 'react-icons/si/SiFirebase';
+import { SiSqlite } from 'react-icons/si/SiSqlite';
+// Using SiMicrosoftsqlserver as a placeholder for SQL
+import { SiMicrosoftsqlserver } from 'react-icons/si/SiMicrosoftsqlserver';
+import { SiMongodb } from 'react-icons/si/SiMongodb';
+import { SiGit } from 'react-icons/si/SiGit';
+import { SiAndroidstudio } from 'react-icons/si/SiAndroidstudio';
+import { SiNodedotjs } from 'react-icons/si/SiNodedotjs';
+import { FaRestassured } from 'react-icons/fa/FaRestassured'; // Font Awesome for REST APIs
 
 const Skills = () => {
   const skills = [
