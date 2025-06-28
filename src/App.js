@@ -15,7 +15,7 @@ function App() {
           {/* Profile Image Placeholder */}
           <div className="w-40 h-40 bg-gray-300 rounded-full mx-auto mb-6 overflow-hidden shadow-lg">
             {/* Replace with your image */}
-            <img src="/Asset/your-profile-image.jpg" alt="Profile" className="w-full h-full object-cover"/>
+            <img src="/assets/nkateko.jpg" alt="Profile" className="w-full h-full object-cover"/>
           </div>
 
           <h1 className="text-6xl md:text-7xl font-bold mb-4 animate-fade-in-up">Nkateko Nkuna</h1>
