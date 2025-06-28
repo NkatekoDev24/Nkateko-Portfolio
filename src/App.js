@@ -3,6 +3,7 @@ import About from './components/About.js';
 import Skills from './components/Skills.js';
 import Projects from './components/Projects.js';
 import Experience from './components/Experience.js';
+import Contact from './components/Contact.js';
 import Chatbot from './components/Chatbot.js';
 
 function App() {
@@ -35,7 +36,16 @@ function App() {
       <Skills />
       <Projects />
       <Experience />
-      <button href="#" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4">Download My CV</button>
+      <Contact />
+
+      {/* Download CV Section */}
+      <section className="py-16 bg-gray-100 text-center">
+        <div className="container mx-auto px-4">
+          <a href="/CV_Nkateko_Nkuna.pdf" download="CV_Nkateko_Nkuna.pdf" className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 inline-block">
+            Download My CV
+          </a>
+        </div>
+      </section>
       <Chatbot />
     </main>
   );
