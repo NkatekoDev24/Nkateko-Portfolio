@@ -1,26 +1,24 @@
 import React from 'react';
 import {
-  SiCsharp
-} from 'react-icons/si/SiCsharp';
-import { SiJava } from 'react-icons/si/SiJava';
-import { SiKotlin } from 'react-icons/si/SiKotlin';
-import { SiPython } from 'react-icons/si/SiPython';
-import { SiJavascript } from 'react-icons/si/SiJavascript';
-import { SiTypescript } from 'react-icons/si/SiTypescript';
-import { SiReact } from 'react-icons/si/SiReact';
+  SiCsharp,
+  SiJava,
+  SiKotlin,
+  SiPython,
+  SiJavascript,
+  SiTypescript,
+  SiReact,
+  SiAngularjs,
+  SiStreamlit,
+  SiFirebase,
+  SiSqlite,
+  SiMicrosoftsqlserver,
+  SiMongodb,
+  SiGit,
+  SiAndroidstudio,
+  SiNodedotjs,
+} from 'react-icons/si';
 // Using SiReactquery as a placeholder for React Native if no specific RN icon in Simple Icons
-import { SiReactquery } from 'react-icons/si/SiReactquery';
-import { SiAngularjs } from 'react-icons/si/SiAngularjs';
-import { SiStreamlit } from 'react-icons/si/SiStreamlit';
-import { SiFirebase } from 'react-icons/si/SiFirebase';
-import { SiSqlite } from 'react-icons/si/SiSqlite';
-// Using SiMicrosoftsqlserver as a placeholder for SQL
-import { SiMicrosoftsqlserver } from 'react-icons/si/SiMicrosoftsqlserver';
-import { SiMongodb } from 'react-icons/si/SiMongodb';
-import { SiGit } from 'react-icons/si/SiGit';
-import { SiAndroidstudio } from 'react-icons/si/SiAndroidstudio';
-import { SiNodedotjs } from 'react-icons/si/SiNodedotjs';
-import { FaRestassured } from 'react-icons/fa/FaRestassured'; // Font Awesome for REST APIs
+import { FaReact } from 'react-icons/fa'; // Using FaReact for React Native as a placeholder
 
 const Skills = () => {
   const skills = [
@@ -31,7 +29,7 @@ const Skills = () => {
     { name: 'JavaScript', icon: SiJavascript },
     { name: 'TypeScript', icon: SiTypescript },
     { name: 'ReactJS', icon: SiReact },
-    { name: 'React Native', icon: SiReactquery }, // Placeholder
+    { name: 'React Native', icon: FaReact }, // Using FaReact as a placeholder
     { name: 'AngularJS', icon: SiAngularjs },
     { name: 'Streamlit', icon: SiStreamlit },
     { name: 'Firebase', icon: SiFirebase },
@@ -41,7 +39,7 @@ const Skills = () => {
     { name: 'Git', icon: SiGit },
     { name: 'Android Studio', icon: SiAndroidstudio },
     { name: 'Node.js', icon: SiNodedotjs },
-    { name: 'REST APIs', icon: FaRestassured },
+    { name: 'REST APIs', icon: FaReact }, // Using FaReact as a placeholder
   ];
 
   return (
